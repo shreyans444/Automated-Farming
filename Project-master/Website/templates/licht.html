@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% block title %}
+    Licht
+{% endblock %}
+
+{% block licht %}
+    class="active"
+{% endblock %}
+
+{% block body %}
+    <div id="promo_licht">
+        <div class="jumbotron">
+            <h1>Lichtsensor </h1>
+            <p>Het lichtpercentage gemeten door een LDR</p>
+            <p>Status:
+                <button class="btn btn-success" type="button">Goed </button>
+            </p>
+            <p></p>
+        </div>
+    </div>
+    <div id="dark-section">
+        <div class="container site-section" id="why">
+            <h1>Licht sensor </h1>
+            <div class="row">
+                <div class="col-md-4 item_thermostaat"><i class="fa fa-sun-o" id="Thermometer_Icon"></i></div>
+                <div class="col-md-4 item">
+                    <h1>35 % </h1>
+                    <h2>Vandaag </h2>
+                    <p>Gemiddelde van vandaag</p>
+                </div>
+                <div class="col-md-4 item">
+                    <h1>45 %</h1>
+                    <h2>Week </h2>
+                    <p>Gemiddelde van deze week</p>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

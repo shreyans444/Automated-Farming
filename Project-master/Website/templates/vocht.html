@@ -1,0 +1,69 @@
+{% extends "base.html" %}
+{% block title %}
+    Vochtigheid
+{% endblock %}
+
+{% block vocht %}
+    class= "active"
+{% endblock %}
+
+{% block body %}
+    <div id="promo_vocht">
+        <div class="jumbotron">
+            <h1>Vochtigheid </h1>
+            <p>De vochtigheidswaarden zijn gemeten door de YL-69 & DHT11</p>
+            <p>Status:
+                <button class="btn btn-success" type="button">Goed </button>
+            </p>
+            <p></p>
+        </div>
+    </div>
+    <div id="dark-section">
+        <div class="container site-section" id="why">
+            <h1>Vochtigheids sensor [BODEM]</h1>
+            <div class="row">
+                <div class="col-md-4 col-xs-push-0 item_thermostaat"><i class="icon ion-waterdrop" id="Drop_vocht"></i></div>
+                <div class="col-md-4 item">
+                    <h1>80%</h1>
+                    <h2>Vandaag </h2>
+                    <p>Gemiddelde van vandaag</p>
+                </div>
+                <div class="col-md-4 item">
+                    <h1>65% </h1>
+                    <h2>Week </h2>
+                    <p>Gemiddelde van deze week</p>
+                </div>
+            </div>
+        </div> <div class="container site-section">
+        <h1>Uitleg parameters bodemvocht</h1>
+        <div class="row">
+            <div class="col-md-4 item">
+                <h2>10-45% </h2>
+                <h3 class="text-success">Te droog</h3></div>
+            <div class="col-md-4 item">
+                <h2>45-70% </h2>
+                <h3 class="text-primary">Goed vochtig</h3></div>
+            <div class="col-md-4 item">
+                <h2>70-100% </h2>
+                <h3 class="text-warning">Zeer vochtig </h3></div>
+        </div>
+        </div>
+        <div class="container site-section" id="why">
+            <h1>Vochtigheids sensor [LUCHT]</h1>
+            <div class="row">
+                <div class="col-md-4 col-xs-push-0 item_thermostaat"><i class="icon ion-waterdrop" id="Drop_vocht"></i></div>
+                <div class="col-md-4 item">
+                    <h1>80%</h1>
+                    <h2>Vandaag </h2>
+                    <p>Gemiddelde van vandaag</p>
+                </div>
+                <div class="col-md-4 item">
+                    <h1>65% </h1>
+                    <h2>Week </h2>
+                    <p>Gemiddelde van deze week</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}

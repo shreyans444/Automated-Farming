@@ -1,0 +1,244 @@
+body {
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+#promo {
+  text-align:center;
+  padding:40px;
+  background:no-repeat;
+  background-size:cover;
+}
+
+@media (max-width:991px) {
+  #promo {
+    padding:24px;
+  }
+}
+
+#promo .jumbotron {
+  border-radius:20px;
+  padding:40px;
+  background-color:rgba(255,255,255,0.75);
+  max-width:800px;
+  margin:0 auto;
+}
+
+@media (max-width:991px) {
+  #promo .jumbotron {
+    padding:20px;
+  }
+}
+
+#promo_licht {
+  text-align:center;
+  padding:40px;
+  background:url(../img/jeremy-bishop-184462.jpg) no-repeat;
+  background-size:cover;
+  margin-top:65px;
+}
+
+@media (max-width:991px) {
+  #promo_licht {
+    padding:24px;
+  }
+}
+
+#promo_licht .jumbotron {
+  border-radius:20px;
+  padding:40px;
+  background-color:rgba(255,255,255,0.75);
+  max-width:800px;
+  margin:0 auto;
+}
+
+@media (max-width:991px) {
+  #promo_licht .jumbotron {
+    padding:20px;
+  }
+}
+
+#promo_temperatuur {
+  text-align:center;
+  padding:40px;
+  background:url(../img/steve-petty-142663.jpg) no-repeat;
+  background-size:cover;
+  margin-top:65px;
+}
+
+@media (max-width:991px) {
+  #promo_temperatuur {
+    padding:24px;
+  }
+}
+
+#promo_temperatuur .jumbotron {
+  border-radius:20px;
+  padding:40px;
+  background-color:rgba(255,255,255,0.75);
+  max-width:800px;
+  margin:0 auto;
+}
+
+@media (max-width:991px) {
+  #promo_temperatuur .jumbotron {
+    padding:20px;
+  }
+}
+
+#promo_vocht {
+  text-align:center;
+  padding:40px;
+  background:url(../img/jono-hislop-637.jpg) no-repeat;
+  background-size:cover;
+  margin-top:65px;
+}
+
+@media (max-width:991px) {
+  #promo_vocht {
+    padding:24px;
+  }
+}
+
+@media (max-width:991px) {
+  #promo_vocht .jumbotron {
+    padding:20px;
+  }
+}
+
+#promo_vocht .jumbotron {
+  border-radius:20px;
+  padding:40px;
+  background-color:rgba(255,255,255,0.75);
+  max-width:800px;
+  margin:0 auto;
+}
+
+@media (max-width:991px) {
+  #promo_contact {
+    padding:24px;
+  }
+}
+
+#promo_contact {
+  text-align:center;
+  padding:40px;
+  background:url(../img/hernan-lucio-53800.jpg) no-repeat;
+  background-size:cover;
+  margin-top:65px;
+}
+
+#promo_contact .jumbotron {
+  border-radius:20px;
+  padding:40px;
+  background-color:rgba(255,255,255,0.75);
+  max-width:800px;
+  margin:0 auto;
+}
+
+@media (max-width:991px) {
+  #promo_contact .jumbotron {
+    padding:20px;
+  }
+}
+
+.site-section {
+  text-align:center;
+  padding:70px;
+}
+
+#welcome p {
+  max-width:800px;
+  font-size:20px;
+  margin:0 auto;
+  color:#666;
+}
+
+.site-section h1 {
+  font-weight:normal;
+  margin-bottom:30px;
+  margin-top:60px;
+}
+
+#why .item {
+  padding-top:36px;
+}
+
+#Thermometer_Icon {
+  font-size:100px;
+  margin:0 auto;
+  padding-top:100px;
+  color:rgb(94,150,71);
+}
+
+#Drop_vocht {
+  font-size:100px;
+  color:rgb(94,150,71);
+}
+
+#why .item i {
+  font-size:60px;
+  color:#609847;
+}
+
+#why .item h2 {
+  margin-top:13px;
+  font-weight:normal;
+  margin-bottom:24px;
+  font-size:24px;
+}
+
+#dark-section {
+  background-color:#e3edf5;
+}
+
+#promo {
+  text-align:center;
+  padding:40px;
+  background:url(../img/markus-spiske-104913.jpg) no-repeat;
+  background-size:cover;
+  margin-top:65px;
+}
+
+#logo {
+  max-height:42px;
+  margin-right:10px;
+  display:inline-block;
+  margin-top:-3px;
+}
+
+.fa.fa-thermometer-empty.temp {
+  padding-bottom:25px;
+}
+
+.material-icons.wolk {
+  padding-bottom:25px;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+  background-color:#b4e19d;
+  border-color:transparent;
+}
+
+#why .item p {
+  color:#6f767a;
+}
+
+#lichtsensor_vandaag {
+  border-width:1px;
+  border-style:solid;
+  border-color:#002212;
+  background-color:rgba(21,255,2,0.17);
+}
+
+#lichtsensor_week {
+  border-width:1px;
+  border-style:solid;
+  border-color:#002212;
+  background-color:rgba(21,255,2,0.17);
+}
+
+#contact_forum {
+  margin:0 auto;
+  padding-top:30px;
+}
+

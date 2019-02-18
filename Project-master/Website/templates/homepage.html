@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% block title %}
+    Home
+{% endblock %}
+
+{% block home %}
+    class="active"
+{% endblock %}
+
+{% block body %}
+    <div id="promo">
+        <div class="jumbotron">
+            <h1>Welkom </h1>
+            <p>Deze website is gemaakt om de waarden van de sensoren van een serre te tonen. U heeft keuze uit 3 soorten sensoren: een lichtsensor, temperatuursensor en een vochtigheidssensor.</p>
+            <p></p>
+        </div>
+    </div>
+    <div id="dark-section">
+        <div class="container site-section" id="why">
+            <h1>Beschikbare sensoren</h1>
+            <div class="row">
+                <div class="col-md-4 item"><i class="icon ion-android-sunny"></i>
+                    <h2>Licht </h2>
+                    <a href="{{ url_for("licht") }}"><button class="btn btn-info btn-lg" type="button">Meer info</button></a>
+                </div>
+                <div class="col-md-4 item"><i class="fa fa-thermometer-empty temp"></i>
+                    <h2>Temperatuur </h2>
+                    <a href="{{ url_for("temp") }}"><button class="btn btn-info btn-lg" type="button">Meer info</button></a>
+                </div>
+                <div class="col-md-4 item"><i class="material-icons wolk">filter_drama</i>
+                    <h2>Vochtigheid </h2>
+                    <a href="{{ url_for("vocht") }}"><button class="btn btn-info btn-lg" type="button">Meer info</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

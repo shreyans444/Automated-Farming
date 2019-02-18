@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% block title %}
+    Temperatuur
+{% endblock %}
+
+{% block temperatuur %}
+    class="active"
+{% endblock %}
+
+{% block body %}
+     <div id="promo_temperatuur">
+        <div class="jumbotron">
+            <h1>Temperatuur </h1>
+            <p>De temperatuurwaarde gemeten door de DHT-11</p>
+            <p>Status:
+                <button class="btn btn-success" type="button">Goed </button>
+            </p>
+            <p></p>
+        </div>
+    </div>
+    <div id="dark-section">
+        <div class="container site-section" id="why">
+            <h1>Temperatuur sensor</h1>
+            <div class="row">
+                <div class="col-md-4 item_thermostaat"><i class="fa fa-thermometer-empty" id="Thermometer_Icon"></i></div>
+                <div class="col-md-4 item">
+                    <h1>24 °C</h1>
+                    <h2>Vandaag </h2>
+                    <p>Gemiddelde van vandaag</p>
+                </div>
+                <div class="col-md-4 item">
+                    <h1>17 °C</h1>
+                    <h2>Week </h2>
+                    <p>Gemiddelde van deze week</p>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

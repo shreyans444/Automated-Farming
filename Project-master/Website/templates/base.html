@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Slimme Serre - {% block title %}{% endblock %}
+    </title>
+    <link rel="stylesheet" href="{{ url_for("static",filename="bootstrap/css/bootstrap.min.css") }}">
+    <link rel="stylesheet" href="{{ url_for("static",filename="fonts/font-awesome.min.css") }}">
+    <link rel="stylesheet" href="{{ url_for("static",filename="fonts/ionicons.min.css") }}">
+    <link rel="stylesheet" href="{{ url_for("static",filename="fonts/material-icons.css") }}">
+    <link rel="stylesheet" href="{{ url_for("static",filename="css/Contact-FormModal-Contact-Form-with-Google-Map.css") }}">
+    <link rel="stylesheet" href="{{ url_for("static",filename="css/Header-Blue.css") }}">
+    <link rel="stylesheet" href="{{ url_for("static",filename="css/Pretty-Footer.css") }}">
+    <link rel="stylesheet" href="{{ url_for("static",filename="css/styles.css") }}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cookie">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,   700">
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand navbar-link" href="#"><img src="static/img/logo.png" id="logo"><strong>Slimme Serre </strong>Project</a>
+                    <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+                </div>
+                <div class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li {% block home %}{% endblock %} role="presentation" ><a  href="{{ url_for("homepage") }}">Home </a></li>
+                        <li {% block licht %}{% endblock %} role="presentation" ><a href="{{ url_for("licht") }}">Licht </a></li>
+                        <li {% block temperatuur %}{% endblock %}role="presentation"><a href="{{ url_for("temp") }}">Temp </a></li>
+                        <li {% block vocht %}{% endblock %}role="presentation"><a href="{{ url_for("vocht") }}">Vocht </a></li>
+                        <li {% block contact %}{% endblock %}role="presentation"><a href="{{ url_for("contact") }}">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+{% block body %}
+{% endblock %}
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-6 footer-navigation">
+                    <h3><a href="#">Slimme Serre </a></h3>
+                    <p class="links"><a href="{{ url_for("homepage") }}">Home</a><strong> · </strong><a href="{{ url_for("licht") }}">Licht </a><strong> · </strong><a href="{{ url_for("temp") }}">Temp </a><strong> · </strong><a href="{{ url_for("vocht") }}">Vocht </a><strong> · </strong><a href="{{ url_for("contact") }}">Contact us</a></p>
+                    <p class="company-name">Slimme Serre © 2017 </p>
+                </div>
+                <div class="col-md-4 col-sm-6 footer-contacts">
+                    <div><span class="fa fa-map-marker footer-contacts-icon"> </span>
+                        <p><span class="new-line-span">Karel de Goedelaan 5</span> Kortrijk, België</p>
+                    </div>
+                    <div><i class="fa fa-phone footer-contacts-icon"></i>
+                        <p class="footer-center-info email text-left"> +32 473 59 46 79</p>
+                    </div>
+                    <div><i class="fa fa-envelope footer-contacts-icon"></i>
+                        <p> <a href="#" target="_blank">support@slimmeserre.com</a></p>
+                    </div>
+                </div>
+                <div class="clearfix visible-sm-block"></div>
+                <div class="col-md-4 footer-about">
+                    <h4>Over dit bedrijf</h4>
+                    <p> Slimme Serre is een fictief project als eindopdracht in het hoger voor de richting New Media and Communication technolgie. </p>
+                    <div class="social-links social-icons"><a href="https://www.facebook.com/maarten.mollie"><i class="fa fa-facebook"></i></a><a href="https://www.linkedin.com/in/maarten-mollie/"><i class="fa fa-linkedin"></i></a><a href="https://github.com/MollieMaarten"><i class="fa fa-github"></i></a></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src={{ url_for("static",filename="js/jquery.min.js") }}></script>
+    <script src={{ url_for("static",filename="bootstrap/js/bootstrap.min.js") }}></script>
+    <script src={{ url_for("static",filename="js/Contact-FormModal-Contact-Form-with-Google-Map.js") }}></script>
+</body>
