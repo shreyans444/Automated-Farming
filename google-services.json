@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "536765617118",
+    "firebase_url": "https://automated-farming-bfe51.firebaseio.com",
+    "project_id": "automated-farming-bfe51",
+    "storage_bucket": "automated-farming-bfe51.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:536765617118:android:8c048c7670a752c4",
+        "android_client_info": {
+          "package_name": "com.example.blotcanvas.automated_farming"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "536765617118-oc5se2nsnqagtn574aq7se456ei8s7ep.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9BOCv-YU5NppR4SorPI6VKoFiYdf_n9g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
